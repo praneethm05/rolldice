@@ -7,7 +7,7 @@ const gradientColors = [
 ];
 
 void main() {
-  runApp(MaterialApp(
+  runApp( const MaterialApp(
     home: Scaffold(
         // backgroundColor: Color.fromARGB(255, 116, 236, 252),
         body: GradientContainer(
